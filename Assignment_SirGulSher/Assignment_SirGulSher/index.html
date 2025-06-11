@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>waheed clinic - Online Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">dr waheed clinic</div>
+            <ul class="nav-links">
+                <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="#"><i class="fas fa-phone"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+     <div class="assignment-box">
+    <div class="assignment-content">
+      <h4>Assignment</h4>
+      <p>
+        Submitted by: shahid hameed<br>
+        Roll No: 2K22/CSM/108<br>
+        Department: Computer Science (Pre-Medical, Final Year)<br>
+        Subject: Web Engineering And Technologies <br>
+        Submitted to: Dr. Sir GhulShar Leghari <br>
+      </p>
+    </div>
+  </div>
+
+    <main class="container">
+        <section class="products">
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </section>
+
+        <aside class="cart">
+            <div class="cart-header">
+                <h2><i class="fas fa-shopping-cart"></i> Your Cart</h2>
+                <span class="item-count" id="item-count">0 items</span>
+            </div>
+            <div class="cart-items" id="cart-items"></div>
+            <div class="cart-summary">
+                <div class="total">
+                    <span>Total:</span>
+                    <span class="amount">Rs. <span id="total">0.00</span></span>
+                </div>
+                <button class="checkout-btn" onclick="checkout()">Proceed to Checkout</button><br><br>
+               
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 IMCS-Bazaar. All rights reserved.</p>
+    </footer>
+
+    <script src="js/cart.js"></script>
+</body>
+</html>
